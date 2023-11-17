@@ -1,0 +1,167 @@
+/* Reset some default margin and padding for a cleaner layout */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Use a common sans-serif font for better readability */
+}
+
+/* Add a background color and some spacing to the body */
+body {
+    background-color: #f9f9f9; /* Lighter background color */
+    padding: 20px;
+}
+
+/* Style the product grid container */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust column width as needed */
+    gap: 20px; /* Adjust the gap between products */
+}
+
+/* Style for product cards */
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    text-align: center;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); /* Slightly increased box shadow for depth */
+    transition: transform 0.2s;
+    padding: 20px; /* Increased padding for a cleaner and more spacious look */
+    border-radius: 8px; /* Rounded corners for cards */
+}
+
+.product-card:hover {
+    transform: scale(1.03); /* Slightly increase scale effect on hover */
+}
+
+/* Style for product images */
+.product-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Style for product titles */
+.product-card h5 {
+    font-size: 1.8rem; /* Slightly reduced font size for a sleeker appearance */
+    margin: 15px 0;
+    color: #333; /* Darker text color */
+}
+
+/* Style for product descriptions */
+.product-card p {
+    font-size: 1.6rem; /* Reduced font size for better readability */
+    color: #555;
+    margin: 0;
+    line-height: 1.4;
+}
+
+/* Style for product price */
+.product-card .price {
+    font-size: 1.8rem;
+    color: #007bff; /* Blue price color for emphasis */
+    margin: 10px 0;
+}
+
+/* Style for quantity input */
+.product-card input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 1.4rem; /* Reduced font size for the input */
+}
+
+/* Style for the form label */
+.product-card label {
+    font-size: 1.6rem;
+    color: #555;
+}
+
+/* Style for the invoice table */
+#invoice-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  #invoice-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+  }
+  
+  #invoice-table th,
+  #invoice-table td {
+    padding: 12px 15px;
+  }
+  
+  #invoice-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  /* Style for alternate rows for better readability */
+  #invoice-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  #invoice-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+  }
+  
+  #invoice-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+  }
+  
+  /* Style for the totals section */
+  #invoice-totals {
+    text-align: right;
+    margin-top: 20px;
+  }
+  
+  #invoice-totals p {
+    margin: 5px;
+    font-weight: bold;
+  }
+  
+  /* Responsive table */
+  @media screen and (max-width: 600px) {
+    #invoice-table thead {
+      display: none;
+    }
+  
+    #invoice-table, 
+    #invoice-table tbody, 
+    #invoice-table tr, 
+    #invoice-table td {
+      display: block;
+      width: 100%;
+    }
+  
+    #invoice-table tr {
+      margin-bottom: 15px;
+    }
+  
+    #invoice-table td {
+      text-align: right;
+      padding-left: 50%;
+      text-align: right;
+      position: relative;
+    }
+  
+    #invoice-table td::before {
+      content: attr(data-label);
+      position: absolute;
+      left: 0;
+      width: 50%;
+      padding-left: 15px;
+      font-weight: bold;
+      text-align: left;
+    }
+  }

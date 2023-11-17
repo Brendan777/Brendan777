@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Head section with meta tags, title, and CSS links -->
+  <title>Invoice - Trendy Shop</title>
+  <!-- Include other head elements and Bootstrap CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+  <!-- Invoice content structure -->
+  <div class="container" id="invoice-container">
+    <h1>Invoice</h1>
+    <table class="table" id="invoice-table">
+      <thead>
+        <tr>
+          <th>Product Name</th>
+          <th>Quantity</th>
+          <th>Price</th>
+          <th>Subtotal</th>
+        </tr>
+      </thead>
+      <tbody id="invoice-items">
+        <!-- Invoice items will be dynamically inserted here -->
+      </tbody>
+    </table>
+    <div id="invoice-totals">
+      <p>Subtotal: <span id="subtotal"></span></p>
+      <p>Tax: <span id="tax"></span></p>
+      <p>Shipping: <span id="shipping"></span></p>
+      <p>Total: <span id="total"></span></p>
+    </div>
+  </div>
+
+  <!-- Include your external JavaScript file "invoice.js" -->
+  <script src="invoice.js"></script>
+</body>
+</html>
