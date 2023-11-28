@@ -1,0 +1,119 @@
+{
+  "basics": {
+    "name": "Brendan Char",
+    "label": "Shidler Undergraduate",
+    "picture": "https://avatars.githubusercontent.com/u/143136818?s=400&u=92266782a7f1531b721e8d5ba2ed9b9eb47b7b09&v=4",
+    "email": "bchar2@hawaii.edu",
+    "phone": "",
+    "website": "https://Brendan777.github.io",
+    "summary": "I am studying for a B.S. in MIS at the University of Hawaii. I expect to graduate in Spring, 2025.",
+    "location": {
+      "address": "",
+      "postalCode": "96744",
+      "city": "Honolulu",
+      "countryCode": "USA",
+      "region": "Hawaii"
+    },
+    "profiles": [
+      {
+        "network": "github",
+        "username": "mmaluhia",
+        "url": "http://github.com/changeme"
+      },
+      {
+        "network": "linkedin",
+        "username": "mollymaluhia",
+        "url": "http://linkedin.com/in/changeme"
+      },
+      {
+        "network": "twitter",
+        "username": "mollymal",
+        "url": "http://twitter.com/changeme"
+      },
+      {
+        "network": "instagram",
+        "username": "molly",
+        "url": "http://instagram.com/changeme"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "keywords": ["", "", "", "", "", ""]
+    },
+    {
+      "name": "",
+      "keywords": ["", "", "", "", ""]
+    }
+  ],
+  "education": [
+    {
+      "institution": "",
+      "area": "MIS",
+      "studyType": "B.S.",
+      "startDate": "",
+      "endDate": "",
+      "courses": []
+    }
+  ],
+  "work": [
+    {
+      "company": "",
+      "position": "",
+      "website": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": ["", ""]
+    },
+    {
+      "company": "",
+      "position": "",
+      "website": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": ["", ""]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "",
+      "website": "",
+      "position": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": ["", ""]
+    },
+    {
+      "organization": "",
+      "website": "",
+      "position": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": ["", "", ""]
+    }
+  ],
+  "awards": [
+    {
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "summary": "."
+    },
+    {
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "summary": "."
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}
